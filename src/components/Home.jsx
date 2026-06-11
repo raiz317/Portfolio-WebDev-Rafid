@@ -1,5 +1,6 @@
 import React from "react";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import fotoProfile from "../assets/MyFoto.png"
 
 function Home() {
     return <section id="home" className="body-home">
@@ -17,7 +18,7 @@ function Home() {
             </div>
         </div>
         <div className="image">
-            <img src="../src/assets/MyFoto.png" alt="image-random" />
+            <img src={fotoProfile} alt="Foto-Profile" />
         </div>
     </section>
 }
