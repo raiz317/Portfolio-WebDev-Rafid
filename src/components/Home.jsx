@@ -1,6 +1,6 @@
 import React from "react";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import fotoProfile from "../assets/MyFoto.png"
+import fotoProfile from '../assets/MyFoto.png'
 
 function Home() {
     return <section id="home" className="body-home">
