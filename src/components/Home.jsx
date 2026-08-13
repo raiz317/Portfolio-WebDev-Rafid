@@ -6,7 +6,6 @@ function Home() {
     return <section id="home" className="body-home">
         <div className="identity">
             <span className="location"><LocationOnIcon />Bekasi, Indonesia</span>
-            {/* </div> */}
             <div className="identity-me">
                 <h2>I am Rafid Faiz Putra as a Web Developer</h2>
             </div>
