@@ -10,7 +10,7 @@ function Home() {
                 <h2>I am Rafid Faiz Putra as a Web Developer</h2>
             </div>
             <div className="description-identity">
-                <p>Sistem Informasi Student & Backend Developer specializing in Node.js. I build scalable, secure, and performant server-side applications.</p>
+                <p>Mahasiswa Sistem Informasi dengan spesialisasi pengembangan Full-Stack dan Backend menggunakan Node.js (Express.js) dan Laravel.</p>
             </div>
             <div className="view-projects">
                 <p>View Projects</p>
