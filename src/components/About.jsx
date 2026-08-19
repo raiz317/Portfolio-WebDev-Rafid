@@ -16,7 +16,7 @@ function About() {
             <div className="education">
                 <h3><SchoolIcon />Education</h3>
                 <p className="school">Universitas Singaperbangsa Karawang</p>
-                <p>Program Studi: Sistem Informasi (Sep 2023 - Now)</p>
+                <p>Program Studi: Sistem Informasi (Sep 2023 - Present)</p>
             </div>
             <div className="stack">
                 <p><WebhookIcon />Current Stack Focus</p>
