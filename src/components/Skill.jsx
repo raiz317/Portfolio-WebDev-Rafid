@@ -74,7 +74,7 @@ function Skill() {
                         <span className="tech-tag">JavaScript (ES6+)</span>
                         <span className="tech-tag">HTML5/CSS3</span>
                         <span className="tech-tag">Bootstrap</span>
-                        <span className="tech-tag">EJS</span>
+                        <span className="tech-tag">React</span>
                         <span className="tech-tag">Laravel Blade</span>
                     </div>
                 </div>

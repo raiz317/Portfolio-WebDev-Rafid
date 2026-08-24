@@ -6,17 +6,16 @@ function About() {
     return <section id="about" className="about">
         <div className="resume-identity">
             <h2>About Me</h2>
-            <p>An Information Systems student specializing in Full-Stack and Backend Development using Node.js (Express.js) and Laravel.
-                Possesses practical experience as a Web Developer Intern at Diskominfosantik Bekasi Regency, with expertise in designing business logic flows
-                and relational database schemas (ERD), as well as building a property sales web platform.
-                Additionally, successfully developed a personal project—an integrated full-stack Inventory & Supplier Relationship Management System—using PostgreSQL, Passport.js, Bcrypt, EJS, and Bootstrap.
-                Skilled in optimizing the entire application development lifecycle through Black-box Testing and leveraging AI-assisted tools (Google Gemini, ChatGPT) to enhance coding efficiency and technical problem-solving.</p>
+            <p>An Information Systems student specializing in Full-Stack and Backend Development using Node.js (Express.js), Laravel and React.js (Vite).
+                Experienced in building a property sales web platform using the Laravel framework and MySQL,
+                as well as an inventory management system integrated via RESTful APIs using React.js and Express.js.
+                Skilled in optimizing development workflows and writing efficient code by leveraging AI-powered tools (Google Gemini, ChatGPT).</p>
         </div>
         <div className="edu-tech">
             <div className="education">
                 <h3><SchoolIcon />Education</h3>
                 <p className="school">Universitas Singaperbangsa Karawang</p>
-                <p>Program Studi: Sistem Informasi (Sep 2023 - Present)</p>
+                <p>Information System (Sep 2023 - Present)</p>
             </div>
             <div className="stack">
                 <p><WebhookIcon />Current Stack Focus</p>

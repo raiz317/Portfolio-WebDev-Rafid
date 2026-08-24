@@ -10,7 +10,7 @@ function Home() {
                 <h2>I am Rafid Faiz Putra as a Web Developer</h2>
             </div>
             <div className="description-identity">
-                <p>An Information Systems student specializing in full-stack and backend development using Node.js (Express.js) and Laravel.</p>
+                <p>An Information Systems student specializing in Fullstack and Backend Development using Node.js (Express.js), Laravel and React (Vite).</p>
             </div>
             <div className="view-projects">
                 <p>View Projects</p>
