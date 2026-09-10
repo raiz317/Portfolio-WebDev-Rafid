@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 function Experience() {
     return (
         <section id="experience" className="experiences">
-            <Fade duration={2000} triggerOnce>
+            <Fade duration={2000}>
                 <div className="section-experience">
                     <h2>My Experience</h2>
                     <div className="header-line"></div>

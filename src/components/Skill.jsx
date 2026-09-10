@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal';
 function Skill() {
     return (
         <section id="skills" className="proficiency-section">
-            <Fade duration={2000} triggerOnce>
+            <Fade duration={2000}>
                 <div className="section-header">
                     <h2>Tools and Technology</h2>
                     <div className="header-line"></div>
