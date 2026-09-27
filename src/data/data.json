@@ -1,0 +1,119 @@
+{
+  "headerData": {
+    "resumeUrl": "https://drive.google.com/file/d/1QXxy-DhLk1WTOLlNM-MD8bw93UWXJVIO/view?usp=sharing",
+    "menuItems": [
+      { "id": 1, "label": "Home", "target": "#home" },
+      { "id": 2, "label": "About", "target": "#about" },
+      { "id": 3, "label": "Experience", "target": "#experience" },
+      { "id": 4, "label": "Skills", "target": "#skills" },
+      { "id": 5, "label": "Projects", "target": "#projects" },
+      { "id": 6, "label": "Contact", "target": "#contact" }
+    ]
+  },
+  "homeData": {
+    "name": "Rafid Faiz Putra",
+    "location": "Bekasi, Indonesia",
+    "imageName": "MyFoto.png",
+    "githubUrl": "https://github.com",
+    "typewriterWords": [
+      "Web Developer",
+      "Fullstack Developer",
+      "Backend Developer"
+    ],
+    "description": "An Information Systems student specializing in Fullstack and Backend Development using Node.js (Express.js), Laravel and React (Vite)."
+  },
+  "aboutData": {
+    "bio": "An Information Systems student specializing in Full-Stack and Backend Development using Node.js (Express.js), Laravel and React.js (Vite). Experienced in building a property sales web platform using the Laravel framework and MySQL, as well as an inventory management system integrated via RESTful APIs using React.js and Express.js. Skilled in optimizing development workflows and writing efficient code by leveraging AI-powered tools (Google Gemini, ChatGPT).",
+    "education": {
+      "school": "Universitas Singaperbangsa Karawang",
+      "major": "Information System",
+      "period": "Sep 2023 - Present"
+    },
+    "techStackFocus": ["Node.js", "PostgreSQL", "Passport.js", "AI Tools"]
+  },
+  "experienceData": [
+    {
+      "id": 1,
+      "role": "Web Developer Intern",
+      "company": "Diskominfosantik Kabupaten Bekasi",
+      "period": "Nov 2025 - Des 2025",
+      "responsibilities": [
+        "Designing business logic flows, relational database schemas (ERD), interaction diagrams (Use Cases), and interface prototypes for a property sales web platform.",
+        "Accelerate application development cycle efficiency by implementing AI-driven development methods (Vibe Coding) within the Laravel framework to build CRUD features, user authentication, and admin dashboards.",
+        "Execute system testing using the black-box testing method to ensure the successful functionality of all features and verify they are bug-free."
+      ]
+    }
+  ],
+  "skillsData": {
+    "backend": [
+      "Node.js (Express.js)",
+      "PHP (Laravel)",
+      "RESTful API",
+      "Passport.js",
+      "Bcrypt Auth"
+    ],
+    "databases": ["PostgreSQL", "MySQL"],
+    "frontend": [
+      "JavaScript (ES6+)",
+      "HTML5/CSS3",
+      "Bootstrap",
+      "React",
+      "Laravel Blade"
+    ],
+    "tools": ["VS Code", "Git/GitHub", "CLI", "Postman", "Figma"],
+    "interpersonal": [
+      "Problem Solving",
+      "AI Prompt Engineering",
+      "Analytical Thinking",
+      "Self-Management"
+    ]
+  },
+  "projectsData": [
+    {
+      "id": 1,
+      "title": "Integrated Inventory Management and Supplier Relationship System",
+      "description": "A web-based application designed to simplify inventory management and centralize supplier relationship data. Built with a Node.js/Express backend featuring a modular router structure for scalability, it ensures enterprise-grade security and encryption via Passport.js and Bcrypt session handling. Furthermore, it implements robust PostgreSQL relational schema modeling to maintain data integrity across complex supplier and item relationships.",
+      "githubUrl": "https://github.com/raiz317/integrated-inventory-system.git",
+      "imageName": "Instockflow.png",
+      "techStack": ["RESTful API", "EJS Templates", "Bootstrap 5"]
+    },
+    {
+      "id": 2,
+      "title": "Property Sales Website",
+      "description": "An independent project developed during an internship at Diskominfosantik Bekasi Regency with AI assistance to digitalize property marketing. It is built using the Laravel Framework following a structured Model-View-Controller (MVC) architecture, utilizing secure session guards and Eloquent User providers with native Bcrypt password hashing, and backed by a robust MySQL relational schema via Eloquent ORM to manage users, properties, contacts, and transactions seamlessly.",
+      "githubUrl": "https://github.com/raiz317/Web_Property.git",
+      "imageName": "homepage.png",
+      "techStack": ["RESTful API", "Laravel Blade", "Bootstrap 5"]
+    },
+    {
+      "id": 3,
+      "title": "Multi-Role Library Catalog & Inventory System",
+      "description": "Developed as the Final Project for the Sanbercode Laravel Web Development Bootcamp, this application digitalizes library collections and manages multi-role user access levels using Laravel's MVC architecture. It features strict Role-Based Access Control (RBAC) enforced via customized middleware—granting Admin accounts full CRUD privileges over genres and books while restricting standard Users to read-only capabilities—all backed by an optimized MySQL relational schema utilizing Eloquent ORM.",
+      "githubUrl": "https://github.com/raiz317/IM-Sanbercode-Laravel-Web-Dev/tree/main/MyProject-RFP",
+      "imageName": "books.png",
+      "techStack": ["RESTful API", "Laravel Blade", "Bootstrap 5"]
+    },
+    {
+      "id": 4,
+      "title": "Expense & Budget Visualizer",
+      "description": "Developed as the Final Project for the RevoU Coding Camp through a high-velocity 'Vibe Coding' workflow with Kiro AI, this mobile-friendly application is built entirely on a lightweight Client-Side Only Architecture using pure HTML5, CSS3, and Vanilla JavaScript (ES6+). It utilizes the native Browser Local Storage API for secure cross-session state persistence and integrates Chart.js via CDN to render interactive, responsive visualization charts with real-time percentage distribution breakdowns.",
+      "githubUrl": "https://raiz317.github.io/Rafid-Faiz-Putra--Mini-Project-RevoU/",
+      "imageName": "budget.png",
+      "techStack": ["Vanilla JavaScript (ES6+)", "Kiro", "Chart.js"]
+    }
+  ],
+  "contactData": {
+    "heading": "Let's build something scalable.",
+    "subheading": "Available for backend development opportunities, open-source collaborations, or technical consultations.",
+    "email": "raizzzptr@gmail.com",
+    "githubUrl": "https://github.com",
+    "linkedinUrl": "https://linkedin.com",
+    "whatsappUrl": "https://wa.me!"
+  },
+  "footerData": {
+    "name": "Rafid Faiz Putra",
+    "githubUrl": "https://github.com",
+    "linkedinUrl": "https://linkedin.com",
+    "email": "raizzzptr@gmail.com"
+  }
+}

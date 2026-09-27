@@ -4,25 +4,26 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import data from "../data/data.json";
 
 function Contact() {
+  const { heading, subheading, email, githubUrl, linkedinUrl, whatsappUrl } =
+    data.contactData;
+
   return (
     <section id="contact" className="contact-section">
       <Fade duration={2000}>
         <div className="card-info">
-          <h2>Let's build something scalable.</h2>
-          <p>
-            Available for backend development opportunities, open-source
-            collaborations, or technical consultations.
-          </p>
+          <h2>{heading}</h2>
+          <p>{subheading}</p>
           <div className="contact-links">
-            <a className="links email" href="mailto:raizzzptr@gmail.com">
+            <a className="links email" href={`mailto:${email}`}>
               <EmailIcon />
-              raizzzptr@gmail.com
+              {email}
             </a>
             <a
               className="links"
-              href="https://github.com/raiz317"
+              href={githubUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -30,7 +31,7 @@ function Contact() {
             </a>
             <a
               className="links"
-              href="https://www.linkedin.com/in/rafid-faiz/"
+              href={linkedinUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -38,7 +39,7 @@ function Contact() {
             </a>
             <a
               className="links"
-              href="https://wa.me/62895332104928?text=Hello%20Rafid%20Faiz%20Putra!"
+              href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
